@@ -76,9 +76,9 @@ app.put('/tasks/:id', function(req, res, next) {
     }
 });
 
-const HACKERRANK_PORT = 8000;
+const SERVER_PORT = 8000;
 
-app.listen(HACKERRANK_PORT, () => {
+app.listen(SERVER_PORT, () => {
   console.log(`\
 
     (c) 2021 Box, Inc.
